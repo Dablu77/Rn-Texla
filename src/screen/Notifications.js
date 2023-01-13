@@ -10,7 +10,7 @@ import {
 import React from 'react';
 import notifiimage from '../assets/bell.png';
 
-export default function Notifications({navigation}) {
+export default function Notifications() {
   const Srt = [
     {
       Image: notifiimage,
@@ -81,9 +81,9 @@ export default function Notifications({navigation}) {
         showsVerticalScrollIndicator={false}
         data={Srt}
         keyExtractor={(item, index) => index}
-        contentContainerStyle={{paddingTop: 10, paddingBottom: 60}}
-        ItemSeparatorComponent={() => <View style={{height: 15}} />}
-        renderItem={({item, index}) => (
+        contentContainerStyle={{ paddingTop: 10, paddingBottom: 60 }}
+        ItemSeparatorComponent={() => <View style={{ height: 15 }} />}
+        renderItem={({ item, index }) => (
           <TouchableOpacity
             style={{
               borderRadius: 5,
