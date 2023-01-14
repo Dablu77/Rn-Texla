@@ -75,15 +75,8 @@ export default function HomeScreen() {
                   justifyContent: 'center',
                   backgroundColor: '#F5DD0A',
                 }}>
-                <Text
-                  style={{
-                    fontSize: 19,
-                    color: 'black',
-                    fontWeight: 'bold',
-                    textAlign: 'center',
-                  }}>
-                  ?
-                </Text>
+                <Image source={require('../assets/icone.jpeg')} style={{ height: 35, width: 35, borderRadius: 25, alignSelf: 'center' }} />
+
               </View>
 
               <View style={{ paddingHorizontal: 10 }}>
@@ -117,15 +110,7 @@ export default function HomeScreen() {
                   justifyContent: 'center',
                   backgroundColor: '#F5DD0A',
                 }}>
-                <Text
-                  style={{
-                    fontSize: 19,
-                    color: 'black',
-                    fontWeight: 'bold',
-                    textAlign: 'center',
-                  }}>
-                  ?
-                </Text>
+                <Image source={require('../assets/icone.jpeg')} style={{ height: 35, width: 35, borderRadius: 25, alignSelf: 'center' }} />
               </View>
 
               <View style={{ paddingHorizontal: 10 }}>
@@ -159,15 +144,8 @@ export default function HomeScreen() {
                   justifyContent: 'center',
                   backgroundColor: '#F5DD0A',
                 }}>
-                <Text
-                  style={{
-                    fontSize: 19,
-                    color: 'black',
-                    fontWeight: 'bold',
-                    textAlign: 'center',
-                  }}>
-                  ?
-                </Text>
+                <Image source={require('../assets/icone.jpeg')} style={{ height: 35, width: 35, borderRadius: 25, alignSelf: 'center' }} />
+
               </View>
 
               <View style={{ paddingHorizontal: 10 }}>
@@ -221,7 +199,9 @@ export default function HomeScreen() {
                   marginTop: 5,
 
                 }}>
-                <Text style={{ color: 'black', fontSize: 20 }}>?</Text>
+                {/* <Text style={{ color: 'black', fontSize: 20 }}>?</Text> */}
+                <Image source={require('../assets/icone.jpeg')} style={{ height: 45, width: 45, borderRadius: 25, alignSelf: 'center' }} />
+
               </View>
               <Text style={{ color: '#1143B6', fontWeight: '500', fontSize: 16 }}>Megha</Text>
               <Text style={{ color: 'grey', fontWeight: '500', marginTop: 3 }}>UX Designer
@@ -253,7 +233,9 @@ export default function HomeScreen() {
                   borderColor: '#11B669',
                   marginTop: 5
                 }}>
-                <Text style={{ color: 'black', fontSize: 20 }}>?</Text>
+                {/* <Text style={{ color: 'black', fontSize: 20 }}>?</Text> */}
+                <Image source={require('../assets/icone.jpeg')} style={{ height: 45, width: 45, borderRadius: 25, alignSelf: 'center' }} />
+
               </View>
               <Text style={{ color: '#1143B6', fontWeight: '500', fontSize: 16 }}>Megha</Text>
               <Text style={{ color: 'grey', fontWeight: '500', marginTop: 3 }}>UX Designer
@@ -285,9 +267,11 @@ export default function HomeScreen() {
                   borderColor: '#11B669',
                   marginTop: 5
                 }}>
-                <Text style={{ color: 'black', fontSize: 20 }}>?</Text>
+                {/* <Text style={{ color: 'black', fontSize: 20 }}>?</Text> */}
+                <Image source={require('../assets/icone.jpeg')} style={{ height: 45, width: 45, borderRadius: 25, alignSelf: 'center' }} />
+
               </View>
-              <Text style={{ color: '#1143B6', fontWeight: '500', fontSize: 16 }}>Megha</Text>
+              <Text style={{ color: '#1143B6', fontWeight: '500', fontSize: 16 }}>Dablu</Text>
               <Text style={{ color: 'grey', fontWeight: '500', marginTop: 3 }}>UX Designer
                 Joined today</Text>
 

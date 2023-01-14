@@ -44,9 +44,11 @@ function BottomNavigator() {
             <View style={{
               height: 35, width: 35, borderWidth: 1, borderRadius: 25,
               alignItems: 'center', backgroundColor: '#4D63CE',
-              justifyContent: 'center', opacity: 0.5, tintColor: focused ? '#38A020' : '#8767',
+              justifyContent: 'center', tintColor: focused ? '#38A020' : '#8767',
             }}>
-              <Text style={{ color: 'black', fontSize: 19, }}>?</Text>
+              {/* <Text style={{ color: 'black', fontSize: 19, }}>?</Text> */}
+              <Image source={require('../assets/icone.jpeg')} style={{ height: 35, width: 35, borderRadius: 25, alignSelf: 'center' }} />
+
             </View>
           ),
         }} />
