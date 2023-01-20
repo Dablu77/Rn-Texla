@@ -13,7 +13,7 @@ import React from 'react';
 
 const {height, width} = Dimensions.get('window');
 
-export default function HomeScreen() {
+export default function HomeScreen({navigation}) {
   return (
     <SafeAreaView style={{flex: 1}}>
       <View
@@ -39,7 +39,7 @@ export default function HomeScreen() {
               placeholderTextColor="#888888"
             />
           </View>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('Message')}>
             <Image
               source={require('../assets/speech-bubble.png')}
               style={{height: 30, width: 30, top: 15}}

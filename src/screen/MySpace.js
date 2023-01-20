@@ -1,10 +1,10 @@
-import {View, Text} from 'react-native';
+import {View, Text, SafeAreaView} from 'react-native';
 import React from 'react';
 
 export default function MySpace() {
   return (
-    <View>
+    <SafeAreaView style={{flex: 1, backgroundColor: '#defff7'}}>
       <Text>MySpace</Text>
-    </View>
+    </SafeAreaView>
   );
 }
