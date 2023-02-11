@@ -1,18 +1,17 @@
-// import React from 'react';
-// import {NavigationContainer} from '@react-navigation/native';
-// import BottomNavigator from './src/navigation/BottomNavigator';
-// import store, {Store} from './src/redux/store';
-// import {Provider} from 'react-redux';
-// import MySpace from './src/screen/MySpace';
-// import
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import BottomNavigator from './src/navigation/BottomNavigator';
 
-// function App() {
-//   return (
-//     <NavigationContainer>
-//       <BottomNavigator />
-//     </NavigationContainer>
-//   );
-// }
+
+function App() {
+  return (
+    <NavigationContainer>
+      <BottomNavigator />
+    </NavigationContainer>
+  );
+}
+
+export default App
 
 // const NewApp = () => {
 //   return (
@@ -26,15 +25,15 @@
 
 // export default NewApp;
 
-import {View, Text} from 'react-native';
-import React from 'react';
-import MySpace from './src/screen/MySpace';
-import store from './src/redux/store';
+// import {View, Text} from 'react-native';
+// import React from 'react';
+// import MySpace from './src/screen/MySpace';
+// import store from './src/redux/store';
 
-export default function App() {
-  return (
-    <View style={{flex: 1}}>
-      <MySpace {...store} />
-    </View>
-  );
-}
+// export default function App() {
+//   return (
+//     <View style={{flex: 1}}>
+//       <MySpace {...store} />
+//     </View>
+//   );
+// }

@@ -1,4 +1,4 @@
-export default {
-  INCREMENT: 'INCREMENT',
-  DECREMENT: 'DECREMENT',
-};
+// export default {
+//   INCREMENT: 'INCREMENT',
+//   DECREMENT: 'DECREMENT',
+// };

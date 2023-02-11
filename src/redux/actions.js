@@ -1,15 +1,15 @@
-import types from './types';
+// import types from './types';
 
-export function increment(data) {
-  return {
-    type: types.INCREMENT,
-    payload: data,
-  };
-}
+// export function increment(data) {
+//   return {
+//     type: types.INCREMENT,
+//     payload: data,
+//   };
+// }
 
-export function decrement(data) {
-  return {
-    type: types.DECREMENT,
-    payload: data,
-  };
-}
+// export function decrement(data) {
+//   return {
+//     type: types.DECREMENT,
+//     payload: data,
+//   };
+// }
